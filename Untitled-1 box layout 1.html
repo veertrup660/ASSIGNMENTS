@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box layout 1</title>
+    <style>
+        * {
+            margin: 0%;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        .main .boxes {
+
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 10px 5px;
+        }
+
+        .main .boxes .a {
+
+            width: 30%;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 1px 2px 5px 1px gray;
+        }
+
+        .main .boxes .a h4 {
+            font-size: 20px;
+            font-weight: lighter;
+            color: lightgray;
+            text-align: center;
+            padding: 30px 15px;
+            background: grey;
+            height: 100px;
+
+        }
+
+        .main .boxes .a p {
+            font-size: 10px;
+            font-weight: lighter;
+            text-align: justify;
+            color: lightslategrey;
+            padding: 10px;
+        }
+
+        .box-bottom-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            justify-self: flex-end;
+        }
+
+        .button-part button {
+            padding: 2px;
+            color: lightslategray;
+            font-size: 10px;
+        }
+
+        .main .boxes .a span {
+            font-size: 10px;
+            font-weight: bold;
+            color: darkgrey;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="boxes">
+            <div class="a">
+                <h4>Thumbnail</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta soluta, quod impedit, itaque ea quis
+                    cumque rerum dignissimos modi porro reprehenderit totam
+                    doloribus mollitia cupiditate quisquam, commodi libero eum. Corrupti! </p>
+                <div class="box-bottom-section">
+                    <div class="button-part">
+                        <button>View</button>
+                        <button>Edit</button>
+                    </div>
+                    <span>Next</span>
+                </div>
+            </div>
+            <div class="a">
+                <h4>Thumbnail</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta soluta, quod impedit, itaque ea quis
+                    cumque rerum dignissimos modi porro reprehenderit totam
+                    doloribus mollitia cupiditate quisquam, commodi libero eum. Corrupti!
+                </p>
+                <div class="box-bottom-section">
+                    <div class="button-part">
+                        <button>View</button>
+                        <button>Edit</button>
+                    </div>
+                    <span>Next</span>
+                </div>
+            </div>
+            <div class="a">
+                <h4>Thumbnail</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta soluta, quod impedit, itaque ea quis
+                    cumque rerum dignissimos modi porro reprehenderit totam
+                    doloribus mollitia cupiditate quisquam, commodi libero eum. Corrupti!</p>
+                <div class="box-bottom-section">
+                    <div class="button-part">
+                        <button>View</button>
+                        <button>Edit</button>
+                    </div>
+                    <span>Next</span>
+                </div>
+            </div>
+            <div class="a">
+                <h4>Thumbnail</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta soluta, quod impedit, itaque ea quis
+                    cumque rerum dignissimos modi porro reprehenderit totam
+                    doloribus mollitia cupiditate quisquam, commodi libero eum. Corrupti!</p>
+                <div class="box-bottom-section">
+                    <div class="button-part">
+                        <button>View</button>
+                        <button>Edit</button>
+                    </div>
+                    <span>Next</span>
+                </div>
+            </div>
+            <div class="a">
+                <h4>Thumbnail</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta soluta, quod impedit, itaque ea quis
+                    cumque rerum dignissimos modi porro reprehenderit totam
+                    doloribus mollitia cupiditate quisquam, commodi libero eum. Corrupti!</p>
+                <div class="box-bottom-section">
+                    <div class="button-part">
+                        <button>View</button>
+                        <button>Edit</button>
+                    </div>
+                    <span>Next</span>
+                </div>
+            </div>
+            <div class="a">
+                <h4>Thumbnail</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta soluta, quod impedit, itaque ea quis
+                    cumque rerum dignissimos modi porro reprehenderit totam
+                    doloribus mollitia cupiditate quisquam, commodi libero eum. Corrupti!</p>
+                <div class="box-bottom-section">
+                    <div class="button-part">
+                        <button>View</button>
+                        <button>Edit</button>
+                    </div>
+                    <span>Next</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
